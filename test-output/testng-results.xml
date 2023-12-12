@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[click on computer tab]]>
+    </line>
+    <line>
+      <![CDATA[Verify text Computer]]>
+    </line>
+    <line>
+      <![CDATA[Click On Login Link]]>
+    </line>
+    <line>
+      <![CDATA[Click on register link]]>
+    </line>
+    <line>
+      <![CDATA[Get register text]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-12T13:09:01 GMT" name="sanity Suite" finished-at="2023-12-12T13:09:15 GMT" duration-ms="13400">
+    <groups>
+      <group name="regression">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-12T13:09:01 GMT" name="sanity Test" finished-at="2023-12-12T13:09:15 GMT" duration-ms="13400">
+      <class name="com.nopcommerce.demo.testsuite.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" started-at="2023-12-12T13:09:09 GMT" name="setUp" finished-at="2023-12-12T13:09:12 GMT" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" started-at="2023-12-12T13:09:12 GMT" name="inIt" finished-at="2023-12-12T13:09:12 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" started-at="2023-12-12T13:09:12 GMT" name="verifyUserShouldNavigateToRegisterPageSuccessfully" finished-at="2023-12-12T13:09:14 GMT" duration-ms="2370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on register link]]>
+            </line>
+            <line>
+              <![CDATA[Get register text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@794cb805]" started-at="2023-12-12T13:09:14 GMT" name="tearDown" finished-at="2023-12-12T13:09:15 GMT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" started-at="2023-12-12T13:09:05 GMT" name="setUp" finished-at="2023-12-12T13:09:08 GMT" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" started-at="2023-12-12T13:09:08 GMT" name="inIt" finished-at="2023-12-12T13:09:08 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" started-at="2023-12-12T13:09:08 GMT" name="userShouldNavigateToLoginPageSuccessFully" finished-at="2023-12-12T13:09:09 GMT" duration-ms="811" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click On Login Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@1f3f4916]" started-at="2023-12-12T13:09:09 GMT" name="tearDown" finished-at="2023-12-12T13:09:09 GMT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.ComputerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" started-at="2023-12-12T13:09:01 GMT" name="setUp" finished-at="2023-12-12T13:09:05 GMT" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" started-at="2023-12-12T13:09:05 GMT" name="inIt" finished-at="2023-12-12T13:09:05 GMT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" started-at="2023-12-12T13:09:05 GMT" name="verifyUserShouldNavigateToComputerPageSuccessfully" finished-at="2023-12-12T13:09:05 GMT" duration-ms="458" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on computer tab]]>
+            </line>
+            <line>
+              <![CDATA[Verify text Computer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToComputerPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@61dd025]" started-at="2023-12-12T13:09:05 GMT" name="tearDown" finished-at="2023-12-12T13:09:05 GMT" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.ComputerPageTest -->
+    </test> <!-- sanity Test -->
+  </suite> <!-- sanity Suite -->
+</testng-results>
